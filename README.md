@@ -9,11 +9,17 @@ It is named after the Ancient Roman law that grants Roman curule magistrates abs
 
 ## Documentation
 
+* [Data Structures](https://github.com/Jean-LouisH/Imperium/blob/master/Documentation/Proposals/Data%20Structures.md)
+* [Dynamic Memory Allocation](https://github.com/Jean-LouisH/Imperium/blob/master/Documentation/Proposals/Dynamic%20Memory%20Allocation.md)
+* [Pointers and Arrays](https://github.com/Jean-LouisH/Imperium/blob/master/Documentation/Proposals/Pointers%20and%20Arrays.md)
+* [Primitive Data Types](https://github.com/Jean-LouisH/Imperium/blob/master/Documentation/Proposals/Primitive%20Data%20Types.md)
+
 ## Demos
 
 ## Contributing
 
+* Jean-Louis Haywood (Jean-LouisH)
+
 ## Licence 
 
-
- Hobbyist General Purpose Imperative Programming Language
+[MIT Licence](https://github.com/Jean-LouisH/Imperium/blob/master/LICENSE)
