@@ -1,4 +1,4 @@
-# Imperium
+# [Imperium](https://github.com/Jean-LouisH/Imperium)
 
 **Imperium** is a general purpose imperative programming language being developed to apply my learning outcomes from programming language theory and compiler design. It is biased towards compiled, high-performance applications which may use cache optimizations, inlining, multithreading, and GPGPU. But it is meant to be as syntactically simple as possible. 
 It is currently intended for transcompilation to C.
