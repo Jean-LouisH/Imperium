@@ -23,12 +23,12 @@
 ## Code example
 ```cpp
 void example()
-	bool testBoolean = false
-	boolarr testBooleanArray = 0xE8
-	nat testNaturalNumber = 3
-	int testInteger = -40
-	ascii testASCIILetter = 'Q'
-	utf8 testUTF8 = '€'
-	utf16 testUTF16 = '😏'
-	float32 testRealValue = 3.14159
+	bool testBoolean := false
+	boolarr testBooleanArray := 0xE8
+	nat testNaturalNumber := 3
+	int testInteger := -40
+	ascii testASCIILetter := 'Q'
+	utf8 testUTF8 := '€'
+	utf16 testUTF16 := '😏'
+	float32 testRealValue := 3.14159
 ```

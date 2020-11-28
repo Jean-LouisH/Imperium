@@ -3,19 +3,19 @@
 Pointers and arrays are mostly be the same as in C and C++. However, in Imperium, they are strictly defined as types. As such, on variable pointer declaration, the pointer can be represented either with `*` or the unspecifically sized array `[]` on the declared type only. The `[]` brackets are used to communicate that the variables are intended to be arrays.
 
 ```cpp
-float32[] values = alloc(float32[500])
+float32[] values := alloc(float32[500])
 ```
 
 and
 
 ```cpp
-float32* value = alloc(float32)
+float32* value := alloc(float32)
 ```
 
 Pointers can be dereferenced like in C based languages by
 
 ```cpp
-nat* number = alloc(nat)
+nat* number := alloc(nat)
 *number = 5
 ```
 
@@ -24,7 +24,7 @@ An array with a statically specified size is declared with the `[]` by the data 
 ```cpp
 void example()
 	int[15] numbers
-	numbers[0] = 4
+	numbers[0] := 4
 	int a = numbers[0] + numbers[14]
 ```
 

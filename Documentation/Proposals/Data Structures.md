@@ -10,10 +10,10 @@ data RigidBody
 	
 void example()
 	RigidBody ball
-	ball.id = 32
-	ball.name = "ball"
-	ball.mass = 6.088
-	ball.xPosition = 5.01
-	ball.yPosition = 1.56
+	ball.id := 32
+	ball.name := "ball"
+	ball.mass := 6.088
+	ball.xPosition := 5.01
+	ball.yPosition := 1.56
 ```
 

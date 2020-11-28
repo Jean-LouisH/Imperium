@@ -8,13 +8,13 @@ Given that the dynamic memory allocation scheme is built on top of C's functions
 void example()
 
 	//calloc() equivalent
-	nat[] array1 = alloc(nat[5])
+	nat[] array1 := alloc(nat[5])
 	
 	//realloc() equivalent
-	nat[] array1 = realloc(array1, nat[10])
+	nat[] array1 := realloc(array1, nat[10])
 	
 	//malloc() equivalent
-	nat[] array2 = alloc(uninit nat[5])
+	nat[] array2 := alloc(uninit nat[5])
 	
 	//free() equivalent
 	free(array1)
